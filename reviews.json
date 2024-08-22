@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Alice Johnson",
+      "subject": "Data Structures",
+      "stars": 5,
+      "review": "Dr. Johnson provides clear explanations and the projects are very relevant to real-world scenarios. Highly recommend!"
+    },
+    {
+      "professor": "Dr. Michael Lee",
+      "subject": "Operating Systems",
+      "stars": 4,
+      "review": "The course is tough but rewarding. Dr. Lee is knowledgeable but sometimes moves too quickly through material."
+    },
+    {
+      "professor": "Dr. Sarah Brown",
+      "subject": "Artificial Intelligence",
+      "stars": 4,
+      "review": "Great professor with lots of experience in AI. The workload is heavy but the knowledge gained is worth it."
+    },
+    {
+      "professor": "Dr. David Wilson",
+      "subject": "Database Systems",
+      "stars": 3,
+      "review": "Dr. Wilson is a good instructor, but the lectures can be a bit dry. The projects are interesting, though."
+    },
+    {
+      "professor": "Dr. Emma Davis",
+      "subject": "Discrete Mathematics",
+      "stars": 5,
+      "review": "Dr. Davis is amazing! She makes difficult concepts easy to understand and is always willing to help students."
+    },
+    {
+      "professor": "Dr. James Miller",
+      "subject": "Computer Networks",
+      "stars": 4,
+      "review": "Solid course with a lot of practical information. Dr. Miller is approachable and explains the material well."
+    },
+    {
+      "professor": "Dr. Olivia Martinez",
+      "subject": "Software Engineering",
+      "stars": 3,
+      "review": "The course is well-organized, but Dr. Martinez's lectures can be a bit monotonous at times."
+    },
+    {
+      "professor": "Dr. William Clark",
+      "subject": "Machine Learning",
+      "stars": 5,
+      "review": "Dr. Clark is one of the best professors I've had. His passion for the subject is contagious."
+    },
+    {
+      "professor": "Dr. Sophia Robinson",
+      "subject": "Human-Computer Interaction",
+      "stars": 4,
+      "review": "Very interactive and engaging course. Dr. Robinson makes sure everyone participates and understands the content."
+    },
+    {
+      "professor": "Dr. Daniel Walker",
+      "subject": "Computer Graphics",
+      "stars": 3,
+      "review": "Dr. Walker is knowledgeable, but the course could use more hands-on assignments to reinforce the concepts."
+    },
+    {
+      "professor": "Dr. Isabella Scott",
+      "subject": "Introduction to Programming",
+      "stars": 4,
+      "review": "Great for beginners. Dr. Scott explains everything thoroughly and is very patient with questions."
+    },
+    {
+      "professor": "Dr. Matthew Hall",
+      "subject": "Cybersecurity",
+      "stars": 5,
+      "review": "One of the best courses I've taken. Dr. Hall is an expert in the field and the course material is highly relevant."
+    },
+    {
+      "professor": "Dr. Amelia Adams",
+      "subject": "Theory of Computation",
+      "stars": 3,
+      "review": "The content is difficult, but Dr. Adams does her best to make it accessible. The exams are tough."
+    },
+    {
+      "professor": "Dr. Lucas Baker",
+      "subject": "Programming Languages",
+      "stars": 4,
+      "review": "Dr. Baker's enthusiasm for the subject is evident. The course is well-structured and informative."
+    },
+    {
+      "professor": "Dr. Mia Gonzalez",
+      "subject": "Computer Architecture",
+      "stars": 4,
+      "review": "Challenging but rewarding course. Dr. Gonzalez is very supportive and provides detailed feedback."
+    },
+    {
+      "professor": "Dr. Ethan Perez",
+      "subject": "Software Testing",
+      "stars": 3,
+      "review": "Dr. Perez is knowledgeable, but the course could benefit from more practical examples and case studies."
+    },
+    {
+      "professor": "Dr. Charlotte Edwards",
+      "subject": "Operating Systems",
+      "stars": 4,
+      "review": "Dr. Edwards is great at breaking down complex topics. The course workload is heavy but manageable."
+    },
+    {
+      "professor": "Dr. Benjamin Harris",
+      "subject": "Algorithms",
+      "stars": 5,
+      "review": "Dr. Harris is an exceptional teacher. His explanations are clear, and the problem sets are very challenging."
+    },
+    {
+      "professor": "Dr. Grace Thompson",
+      "subject": "Introduction to Computer Science",
+      "stars": 5,
+      "review": "Dr. Thompson makes learning fun and engaging. The course is perfect for students new to computer science."
+    },
+    {
+      "professor": "Dr. Alexander King",
+      "subject": "Advanced Databases",
+      "stars": 4,
+      "review": "Dr. King knows his stuff. The course is difficult, but he provides a lot of resources to help students succeed."
+    }
+  ]
+}
