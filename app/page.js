@@ -2,6 +2,7 @@
 import { Button, Stack, TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import { useState } from "react";
+import "./globals.css";
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -12,6 +13,7 @@ export default function Home() {
     }
   ])
   const [message, setMessage] = useState('')
+
   const sendMessage = async ()=>{
     setMessages((messages) => [
       ...messages,
@@ -49,25 +51,29 @@ export default function Home() {
       })
     })
   }
-  return <Box width='100vw' height='100vh' display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
-    <Stack direction='column' width='500px' height='700px' border='1px solid black' p={2} spacing={3}>
-      <Stack direction={'column'} spacing={2} flexGrow={1} overflow={'auto'} maxHeight={'100%'}>
-        {messages.map((message, index) =>(
-          <Box key={index} display='flex' justifyContent={message.role === 'assistant' ? "flex-start" : "flex-end"}>
-            <Box bgcolor={message.role === 'assistant' ? 'blue' : 'green'} color={'white'} borderRadius={16} p={3} >
-              {message.content}
-            </Box>
-          </Box>
+
+  return (
+    <div className="chat-container">
+      <div className="chat-header">Rate My Professor AI Assistant</div>
+      <div className="messages-container">
+        {messages.map((message, index) => (
+          <div key={index} className={`message ${message.role === 'assistant' ? 'assistant-message' : 'user-message'}`}>
+            {message.content}
+          </div>
         ))}
-      </Stack>
-      <Stack direction = 'row' spacing={2} >
-        <TextField label='Message' fullWidth value={message} onChange={(e)=>{
-          setMessage(e.target.value)
-        }}/>
-        <Button variant="contained" onClick={sendMessage}>
+      </div>
+      <div className="input-container">
+        <TextField
+          className="message-input"
+          label='Message'
+          fullWidth
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+        />
+        <Button className="send-button" variant="contained" onClick={sendMessage}>
           Send
         </Button>
-      </Stack>
-    </Stack>
-  </Box>
+      </div>
+    </div>
+  );
 }
