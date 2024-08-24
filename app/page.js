@@ -53,26 +53,39 @@ export default function Home() {
   }
 
   return (
-    <div className="chat-container">
-      <div className="chat-header">Rate My Professor AI Assistant</div>
-      <div className="messages-container">
-        {messages.map((message, index) => (
-          <div key={index} className={`message ${message.role === 'assistant' ? 'assistant-message' : 'user-message'}`}>
-            {message.content}
-          </div>
-        ))}
+    <div className= "outer-container">
+      <div className="landing-container">
+        <h1>
+          Welcome to 
+          <br></br>
+          <span>Rate My Professor AI Assistant</span>
+        </h1>
+        <p>
+        Need help deciding which professor to take? Our AI assistant is here to help! 
+        Simply ask questions about a professor and get instant, personalized insights.
+        </p>
       </div>
-      <div className="input-container">
-        <TextField
-          className="message-input"
-          label='Message'
-          fullWidth
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        />
-        <Button className="send-button" variant="contained" onClick={sendMessage}>
-          Send
-        </Button>
+      <div className="chat-container">
+        <div className="chat-header">Rate My Professor AI Assistant</div>
+        <div className="messages-container">
+          {messages.map((message, index) => (
+            <div key={index} className={`message ${message.role === 'assistant' ? 'assistant-message' : 'user-message'}`}>
+              {message.content}
+            </div>
+          ))}
+        </div>
+        <div className="input-container">
+          <TextField
+            className="message-input"
+            label='Message'
+            fullWidth
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+          <Button className="send-button" variant="contained" onClick={sendMessage}>
+            Send
+          </Button>
+        </div>
       </div>
     </div>
   );
