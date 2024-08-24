@@ -83,7 +83,7 @@ body {
 }
 
 .message-input .MuiOutlinedInput-root {
-  border-radius: 9999px;
+  border-radius: 20px;
   padding-left: 14px;
 }
 
@@ -106,10 +106,10 @@ body {
 }
 
 .send-button {
-  background-color: #3b82f6;
+  background-color: #4b87e6;
   color: white;
   border: none;
-  border-radius: 9999px;
+  border-radius: 20px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
@@ -117,7 +117,7 @@ body {
 }
 
 .send-button:hover {
-  background-color: #89ade7;;
+  background-color: #99c97d;;
 }
 
 .send-button:focus {
